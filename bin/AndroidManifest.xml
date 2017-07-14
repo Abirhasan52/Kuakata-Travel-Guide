@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tourismcoachbd.kuakatatravelguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.AboutKuakata"
+            android:label="@string/title_activity_about_kuakata"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Spots"
+            android:label="@string/title_activity_spots"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resorts"
+            android:label="@string/title_activity_resorts"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotels"
+            android:label="@string/title_activity_hotels"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Developer"
+            android:label="@string/title_activity_developer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.FatrarChar"
+            android:label="@string/title_activity_fatrar_char"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.ReservedForest"
+            android:label="@string/title_activity_reserved_forest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.BuddistTemple"
+            android:label="@string/title_activity_buddist_temple"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.JhauBon"
+            android:label="@string/title_activity_jhau_bon"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.ShutkiPolli"
+            android:label="@string/title_activity_shutki_polli"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.EcoPark"
+            android:label="@string/title_activity_eco_park"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Lebur_char"
+            android:label="@string/title_activity_lebur_char"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Narikel_bagan"
+            android:label="@string/title_activity_narikel_bagan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_nilanjona"
+            android:label="@string/title_activity_hotel_nilanjona"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_skyPalace"
+            android:label="@string/title_activity_hotel_sky_palace"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_kuakataInn"
+            android:label="@string/title_activity_hotel_kuakata_inn"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_mohona"
+            android:label="@string/title_activity_hotel_mohona"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_goldePalace"
+            android:label="@string/title_activity_hotel_golde_palace"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resort_Sagorkonna"
+            android:label="@string/title_activity_resort__sagorkonna"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resort_somudrabilash"
+            android:label="@string/title_activity_resort_somudrabilash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resort_guesthouse"
+            android:label="@string/title_activity_resort_guesthouse"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resort_blueocean"
+            android:label="@string/title_activity_resort_blueocean"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resort_sweetmate"
+            android:label="@string/title_activity_resort_sweetmate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.User_info"
+            android:label="@string/title_activity_user_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Image_gallery"
+            android:label="@string/title_activity_gallery"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Google_map"
+            android:label="@string/title_activity_google_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Insert_info"
+            android:label="@string/title_activity_insert_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Resorts_Blue_ocean"
+            android:label="@string/title_activity_resorts__blue_ocean"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.Hotel_al_hera"
+            android:label="@string/title_activity_hotel_al_hera"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.FragmentOne"
+            android:label="@string/title_activity_fragment_one"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.FirstFragment"
+            android:label="@string/title_activity_first_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.SecondFragment"
+            android:label="@string/title_activity_second_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.ThirdFragment"
+            android:label="@string/title_activity_third_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tourismcoachbd.kuakatatravelguide.MainugActivity"
+            android:label="@string/title_activity_mainug"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
